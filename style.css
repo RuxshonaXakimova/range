@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(12, 12, 69);
+}
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.range{
+    width: 100%;
+    background-color: rgba(78, 50, 170, 0.758);
+    cursor: pointer;
+    height: 50px;
+    outline: none;
+    margin-bottom: 25px;
+    border-radius: 75px;
+   
+}
+
+.moduls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+.module_box{
+    height: 50px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.item{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 60px;
+    gap: 65px;
+}
+
+.item img{
+    width: 350px;
+    height: 255px;
+}
+.none{
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+
+
+.choosed_module{
+    font-size: 22px;
+    color: white;
+}
+
+.one {
+    background-color: rgb(246, 107, 107);
+}
+
+.two {
+    background-color: rgb(237, 185, 89);
+}
+
+.three {
+    background-color: rgb(226, 226, 83);
+}
+
+.four {
+    background-color: rgb(93, 202, 93);
+}
+
+.five {
+    background-color: rgb(144, 144, 239);
+}
+
+.six {
+    background-color: rgb(229, 134, 229);
+}
+
+.seven {
+    background-color: pink;
+}
+
+.eight{
+    background-color: rgb(165, 234, 211);
+}
+
+.nine{
+    background-color: cornflowerblue;
+}
+
+.ten{
+    background-color: coral;
+}
+
+.elleven{
+    background-color: lightpink;
+}
+
